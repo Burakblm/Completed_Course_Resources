@@ -1,7 +1,4 @@
-package onewaylinkedlist;
-
 import java.util.Scanner;
-import javafx.scene.shape.Line;
 
 class Student{
     int number;
