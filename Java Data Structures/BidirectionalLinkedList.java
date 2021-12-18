@@ -1,5 +1,3 @@
-package bidirectionallinkedlist;
-
 import java.util.Scanner;
 
 class Student{
