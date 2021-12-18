@@ -1,5 +1,3 @@
-package stack;
-
 public class Stack {
 
     public int maxSize;
