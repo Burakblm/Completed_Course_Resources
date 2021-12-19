@@ -1,5 +1,3 @@
-package binarytree;
-
 class Node{
     int content;
     Node right;
