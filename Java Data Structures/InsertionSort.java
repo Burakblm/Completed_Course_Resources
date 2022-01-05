@@ -1,7 +1,5 @@
-
-package bubblesort;
-
 public class InsertionSort {
+    
     public static void insertionSort(int dizi[]) {
         int n= dizi.length;
         for(int j=1;j<n;j++){
