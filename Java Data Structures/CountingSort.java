@@ -1,5 +1,3 @@
-package bubblesort;
-
 public class CountingSort {
     public static int [] countingSort(int [] dizi ) { 
         int enb  = 0  ;
