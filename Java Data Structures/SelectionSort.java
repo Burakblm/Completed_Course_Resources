@@ -1,5 +1,3 @@
-package bubblesort;
-
 public class SelectionSort {
 
     public static void selectionSort(int[] dizi) {
