@@ -1,5 +1,3 @@
-package bubblesort;
-
 public class BubbleSort {
     public static void BubbleSort(int [] dizi) { 
     int n = dizi.length;
