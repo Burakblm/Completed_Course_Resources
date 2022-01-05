@@ -1,4 +1,3 @@
-package bubblesort;
 public class ShellSort {
 
     public static void shellsort(int dizi[]) {
