@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Oct 26 12:01:45 2021
-
-@author: ASUS
-"""
-
 #1. kutuphaneler
 import numpy as np
 import matplotlib.pyplot as plt
@@ -75,15 +68,3 @@ eniyisonuc = grid_search.best_score_
 eniyiparametreler = grid_search.best_params_
 print("en iyi sonuç :",eniyisonuc)
 print("en iyi prametreler :", eniyiparametreler)
-
-
-
-
-
-
-
-
-
-
-
-
