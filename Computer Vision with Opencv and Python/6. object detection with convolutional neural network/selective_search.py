@@ -1,0 +1,23 @@
+import cv2
+import random
+import matplotlib.pyplot as plt
+
+image = cv2.imread("desert_and_camel.jpg")
+image = cv2.resize(image, dsize = (600,600))
+image = cv2.cvtColor(image,cv2.COLOR_BGR2RGB)
+plt.imshow(image)
+
+# ilklendir ss
+ss = cv2.ximgproc.segmentation.createSelectiveSearchSegmentation()
+ss.setBaseImage(image)
+
+ss.switchToSelectiveSearchQuality()
+print("start")
+rects = ss.process()
+
+output = image.copy()
+for (x, y, w, h) in rects[:50]:
+    color = [random.randint(0,255) for j in range(0,3)]
+    cv2.rectangle(output, (x,y), (x+w, y+h), color, 2)
+    
+plt.imshow(output)
